@@ -2,6 +2,7 @@ var repoContainerEl = document.querySelector("#repos-container");
 var repoSearchTerm = document.querySelector("#repo-search-term");
 var userFormEl = document.querySelector("#user-form");
 var nameInputEl = document.querySelector("#username");
+
 var formSubmitHandler = function (event) {
     event.preventDefault();
     // get value from input element
@@ -15,6 +16,7 @@ var formSubmitHandler = function (event) {
     }
     console.log(event);
 };
+
 var getUserRepos = function (user) {
     // format the github api url
     var apiUrl = "https://api.github.com/users/" + user + "/repos";
@@ -36,6 +38,7 @@ var getUserRepos = function (user) {
             alert("Unable to connect to GitHub");
         });
 };
+
 var displayRepos = function (repos, searchTerm) {
     // check if api returned any repos
     if (repos.length === 0) {
@@ -78,4 +81,5 @@ var displayRepos = function (repos, searchTerm) {
         repoContainerEl.appendChild(repoEl);
     }
 };
+
 userFormEl.addEventListener("submit", formSubmitHandler);
