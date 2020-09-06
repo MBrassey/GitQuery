@@ -1,4 +1,4 @@
-# git-it-done
+# Git Query
 Query The Github API
 
 - [x] [Search for featured repos](https://github.com/luc1dLife/git-it-done/issues/1)
