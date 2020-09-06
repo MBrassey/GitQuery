@@ -1,5 +1,5 @@
 # Git Query
-Query The Github API
+Query the Github API
 
 - [x] [Search for featured repos](https://github.com/luc1dLife/git-it-done/issues/1)
 - [x] [See list of all open issues](https://github.com/luc1dLife/git-it-done/issues/2)
