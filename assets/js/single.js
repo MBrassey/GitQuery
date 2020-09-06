@@ -33,7 +33,7 @@ function getRepoIssues(repo) {
 }
 
 function displayIssues(issues) {
-    if (issues.lenght === 0) {
+    if (issues.length === 0) {
         issueContainerEl.textContent = "This repo has no open issues!";
         return;
     }
