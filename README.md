@@ -1,6 +1,6 @@
 # Git Query
 
-> Query the Github API for issues & usernames with jQuery/JS/HTML/CSS.
+> Query the Github API for issues, usernames & languages with jQuery/JS/HTML/CSS.
 
 - [x] [Search for featured repos](https://github.com/MBrassey/GitQuery/issues/1)
 - [x] [See list of all open issues](https://github.com/MBrassey/GitQuery/issues/2)
