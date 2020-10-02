@@ -2,6 +2,8 @@
 
 Query the Github API for issues, usernames & languages with jQuery/JS/HTML/CSS.
 
+![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)
+
 #### Issues
 
 - [x] [Search for featured repos](https://github.com/MBrassey/GitQuery/issues/1)
