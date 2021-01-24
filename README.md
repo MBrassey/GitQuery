@@ -13,7 +13,8 @@ Query the Github API for issues, usernames & languages with jQuery/JS/HTML/CSS.
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://MBrassey.github.io/GitQuery/">webapplication</a></p></h6>
 
-[<p align="center"><img src="assets/img/Preview.png">](https://MBrassey.github.io/GitQuery/)
+> Find Projects to Contribute to
+> [<p align="center"><img src="assets/img/Preview.png">](https://MBrassey.github.io/GitQuery/)
 
 #### Questions
 
