@@ -1,9 +1,9 @@
 :root {
-  --primary: #ccdad1;
-  --secondary: #9caea9;
-  --tertiary: #788585;
-  --light-dark: #6f6866;
-  --dark: #38302e;
+  --primary: #4179BA;
+  --secondary: #5C646C;
+  --tertiary: #111D2F;
+  --light-dark: #161B22;
+  --dark: #0D1117;
   --border-radius: 0.3rem;
 }
 
@@ -134,12 +134,12 @@ p {
 .status-icon {
   padding: 2px 5px;
   margin: 0 5px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color:var(--light-dark);
   border-radius: var(--border-radius);
 }
 
 .icon-danger {
-  color: rgb(255, 70, 70);
+  color: #2EA043;
 }
 
 .icon-success {
